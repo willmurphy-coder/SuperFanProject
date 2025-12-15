@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Demon Slayer</title>
+  </head>
+  <body>
+    <div class="reset-row black center-content">
+      <img
+        src="images/resetbutton.png"
+        class="hover1"
+        id="resetbutton"
+        onclick="resetAll()"
+      />
+    </div>
+    <div class="top-row light-grey center-content">
+      <div class="split white center-content">
+        <img src="images/demonslayerlogo.png" class="shadow" id="demonslayer" />
+      </div>
+      <div class="split yellow center-content text" id="slayer-info">
+        Demon Slayer is a Japanese anime and manga series that follows Tanjiro
+        Kamado, a kind-hearted boy whose family is slaughtered by demons. His
+        younger sister Nezuko survives but is turned into a demon herself.
+        Determined to save her and defeat the creature who destroyed their
+        family, Tanjiro joins the Demon Slayer Corps, a secret group of warriors
+        who hunt demons using special sword techniques called Breathing Styles.
+      </div>
+    </div>
+
+    <div class="bottom-row light-grey center-content">
+      <div class="character white center-content">
+        <img
+          src="images/tanjirofunny.png"
+          class="tanjiro1 hover1"
+          id="tanjiro"
+          id="my-click"
+          onclick="changeTanjiro()"
+        />
+      </div>
+      <div class="character white center-content">
+        <img
+          src="images/inosukefunny.jpg"
+          class="hover1"
+          id="inosuke"
+          onclick="changeInosuke()"
+        />
+      </div>
+      <div class="character white center-content">
+        <img
+          src="images/zenitsufunny.avif"
+          class="hover1"
+          id="zenitsu"
+          onclick="changeZenitsu()"
+        />
+      </div>
+      <audio id="tanjiroSound" src="sounds/tanjirointronew.wav"></audio>
+      <audio id="inosukeSound" src="sounds/inosukeintro1.wav"></audio>
+      <audio id="zenitsuSound" src="sounds/zenitsuintro2.wav"></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
